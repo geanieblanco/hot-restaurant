@@ -20,19 +20,19 @@ var tables = [
     Name: "Jhon Doe",
    	PhoneNumber: "973-572-6475",
     Email: "jhondoe@gmail.com",
-    ID: 1
+    Id: 1
   },
   {
     Name: "Joe Smith",
    	PhoneNumber: "973-572-6476",
     Email: "joesmith@gmail.com",
-    ID: 2
+    Id: 2
   },
   {
     Name: "Victor idk",
    	PhoneNumber: "973-572-6477",
     Email: "victoridk@gmail.com",
-    ID: 3
+    Id: 3
   },
 ];
 
