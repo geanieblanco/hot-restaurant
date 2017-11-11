@@ -50,7 +50,7 @@
                   <input class="form-control" id="customerid" placeholder="Enter Customer ID">
                 </div>
 
-                <button type="submit" class="btn submit">Submit</button>
+                <button id="submit" type="submit" class="btn submit">Submit</button>
             </form>
             </div>
           </div>
@@ -66,7 +66,8 @@
     </footer>
 
     <script type=“text/javascript”>
-      $("#submit").on("click", function(event) {
+
+      $("#submit").on("click", function(event){
         event.preventDefault();
         var newRes = {
           Name: $("#customername").val().trim(),
@@ -76,9 +77,8 @@
         };
 
         $.post("/reserve", newRes)
-          .done(function(data) {
+          .done(function(data){
             console.log(data);
-            alert("Added!");
           });
       });
     </script>
