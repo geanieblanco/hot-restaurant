@@ -55,14 +55,16 @@
   <script type="text/javascript">
 
     $.get("/tables", function(data) {
-      console.log(data);
+      data = JSON.stringify(data);
+      console.log(JSON.stringify(data));
       if (data) {
         $("#tableSection").text(data);
       }
     });
 
     $.get("/waiting", function(data) {
-      console.log(data);
+      data = JSON.stringify(data);
+      console.log(JSON.stringify(data));
       if (data) {
         $("#waitlistSection").text(data);
       }
