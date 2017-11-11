@@ -1,0 +1,36 @@
+html {
+  background: url(https://static.pexels.com/photos/260922/pexels-photo-260922.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+  margin-top: 10px;
+  background-color: rgba(59,44,53,.8);
+}
+
+body {
+  background: none;
+  color: #D7CEB2;
+}
+
+
+.btn {
+  background-color: #A59E8C;
+  color: #D7CEB2;
+}
+
+.panel {
+  background-color: rgba(59,44,53,.8);
+  border: none;
+}
+
+#panelhead {
+  background-color: rgb(59,44,53);
+}
+
+.panel-title {
+  color: #D7CEB2;
+}

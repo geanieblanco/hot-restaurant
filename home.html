@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hot Restaurant Reservations</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <script src=“https://code.jquery.com/jquery-3.2.1.min.js” integrity=“sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=” crossorigin=“anonymous”></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-3 text-center" id="header"><span class="glyphicon glyphicon-fire"></span>Hot Restaurant</h1>
+      <h2 class="lead text-center" id="subhead">We only have two tables left, book yours' soon!</h2>
+      <center><a href="/viewtables"><button type="button" class="btn" id="tablesbutton"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button>
+        <a href ="/reservation"><button type="button" class="btn" id="reservationbutton"><span class="glyphicon glyphicon-credit-card"></span> Make a Reservation</button></a></center>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p> <a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Waitlist</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
