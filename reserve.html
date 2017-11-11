@@ -65,21 +65,22 @@
       </div>
     </footer>
 
-    <script type=“text/javascript”>
-
+    <script type="text/javascript">
+      
       $("#submit").on("click", function(event){
         event.preventDefault();
         var newRes = {
           Name: $("#customername").val().trim(),
           PhoneNumber: $("#phonenumber").val().trim(),
           Email: $("#emailaddress").val().trim(),
-          Id: $("#customerid").val().trim()
+          ID: $("#customerid").val().trim()
         };
 
         $.post("/reserve", newRes)
-          .done(function(data){
-            console.log(data);
-          });
+        .done(function(data){
+          console.log(data);
+        });
+
       });
     </script>
 </body>
